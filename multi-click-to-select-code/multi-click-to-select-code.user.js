@@ -13,22 +13,21 @@
 //
 
 // ==UserScript==
-// @namespace   https://gitlab.com/kekumu
+// @namespace   https://gitlab.com/kekumu/userscripts
 // @name        Multi-click to select code
 // @description Multi-click a code snippet to select everything in the code block.
-// @version     1.0.0
-// ==OpenUserJS==
-// @author      kekumu; https://gitlab.com/kekumu
-// ==/OpenUserJS==
+// @version     1.0.2
 // @copyright   2020, kekumu (https://gitlab.com/kekumu)
 // @license     GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.html
-// @homepage    https://github.com/kekumu/userscripts/lib/click2select.js
-// @supportURL  https://github.com/kekumu/userscripts/labels/click2select.js
-// ==/UserLibrary==
+// @homepage    https://gitlab.com/kekumu/userscripts/-/tree/master/multi-click-to-select-code
+// @supportURL  https://gitlab.com/kekumu/userscripts/-/issues?label_name[]=multi-click-to-select-code
 // @include     *
 // @grant       GM.getValue
 // @grant       GM.setValue
 // ==/UserScript==
+// ==OpenUserJS==
+// @author      kekumu
+// ==/OpenUserJS==
 
 (async () => {
   "use strict";

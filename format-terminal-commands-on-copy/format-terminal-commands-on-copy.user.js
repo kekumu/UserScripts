@@ -13,21 +13,20 @@
 //
 
 // ==UserScript==
-// @namespace   https://gitlab.com/kekumu
+// @namespace   https://gitlab.com/kekumu/userscripts
 // @name        Format terminal commands on copy
 // @description Automatically remove bash comments `#` and prompts `$` on copy by reading the modifying the selected content.
-// @version     1.0.1
-// ==OpenUserJS==
-// @author      kekumu; https://gitlab.com/kekumu
-// ==/OpenUserJS==
+// @version     1.0.3
 // @copyright   2020, kekumu (https://github.com/kekumu)
 // @license     GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0.html
-// @homepage    https://github.com/kekumu/userscripts/lib/click2select.js
-// @supportURL  https://github.com/kekumu/userscripts/labels/click2select.js
-// ==/UserLibrary==
+// @homepage    https://gitlab.com/kekumu/userscripts/-/tree/master/format-terminal-commands-on-copy
+// @supportURL  https://gitlab.com/kekumu/userscripts/-/issues?label_name[]=format-terminal-commands-on-copy
 // @include     *
 // @grant       none
 // ==/UserScript==
+// ==OpenUserJS==
+// @author      kekumu
+// ==/OpenUserJS==
 
 (() => {
   "use strict";
