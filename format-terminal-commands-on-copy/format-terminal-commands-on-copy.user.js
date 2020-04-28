@@ -16,7 +16,7 @@
 // @namespace   https://gitlab.com/kekumu
 // @name        Format terminal commands on copy
 // @description Automatically remove bash comments `#` and prompts `$` on copy by reading the modifying the selected content.
-// @version     1.0.0
+// @version     1.0.1
 // ==OpenUserJS==
 // @author      kekumu; https://gitlab.com/kekumu
 // ==/OpenUserJS==
@@ -36,7 +36,7 @@
     const selection = document.getSelection();
 
     let lines = selection.toString().split('\n').reduce((res, line) => {
-        if (!line[0] === '#') { // Remove lines that start with '#' (comments)
+        if (line[0] !== '#') { // Remove lines that start with '#' (comments)
           res.push(line.replace(/^\$ /, '')); // Remove '$ ' prompt
         }
         return res;
